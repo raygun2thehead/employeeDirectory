@@ -2,10 +2,9 @@ import React, { Component } from "react";
 import API from "../../utils/API";
 import ResultList from "../DataBody";
 // import SearchBox from "../SearchBox";
-// import SearchResults from "../components/SearchResults";
 // import DataTable from "../DataTable"
 
-class Search extends Component {
+class SearchResults extends Component {
   state = {
     search: "",
     employee: [],
@@ -44,4 +43,4 @@ class Search extends Component {
   }
 }
 
-export default Search;
+export default SearchResults;
